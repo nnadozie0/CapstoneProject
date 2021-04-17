@@ -1,0 +1,266 @@
+body .ui.menu.main-menu {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #013543;
+    border-bottom: 1px solid #ffffff;
+}
+
+.notifications-dropdown {
+    margin-top: 10px !important;
+}
+
+body .ui.button:hover {
+    background-color: hsl(12.699999999999989, 100%, 61.3%)
+}
+
+body .ui.buttons .button,
+body .ui.button {
+    background-color: #FC724D;
+    color: #fff;
+}
+
+body .ui.buttons .button:hover,
+body .ui.button:hover {
+    background-color: hsl(12.699999999999989, 100%, 61.3%);
+    color: #fff;
+}
+
+body .ui.buttons .button:focus,
+body .ui.button:focus {
+    background-color: hsl(12.699999999999989, 100%, 59.3%);
+    color: #fff;
+}
+
+body .ui.buttons .button:active,
+body .ui.button:active {
+    background-color: hsl(12.699999999999989, 96.7%, 58.1%);
+    color: #fff;
+}
+
+body .ui.buttons .active.button,
+body .ui.buttons .active.button:active,
+body .ui.active.button,
+body .ui.button .active.button:active {
+    background-color: hsl(12.699999999999989, 100%, 61.3%);
+    color: #fff;
+}
+
+body .ui.basic.buttons .button,
+body .ui.basic.button {
+    box-shadow: 0px 0px 0px 1px #FC724D inset !important;
+    color: #FC724D !important;
+}
+
+body .ui.basic.buttons .button:hover,
+body .ui.basic.button:hover {
+    background: transparent !important;
+    box-shadow: 0px 0px 0px 1px hsl(12.699999999999989, 100%, 61.3%) inset !important;
+    color: hsl(12.699999999999989, 100%, 61.3%) !important;
+}
+
+body .ui.basic.buttons .button:focus,
+body .ui.basic.button:focus {
+    background: transparent !important;
+    box-shadow: 0px 0px 0px 1px hsl(12.699999999999989, 100%, 59.3%) inset !important;
+    color: hsl(12.699999999999989, 100%, 61.3%) !important;
+}
+
+body .ui.basic.buttons .active.button,
+body .ui.basic.active.button {
+    background: transparent !important;
+    box-shadow: 0px 0px 0px 1px hsl(12.699999999999989, 100%, 61.3%) inset !important;
+    color: hsl(12.699999999999989, 96.7%, 58.1%) !important;
+}
+
+body .ui.basic.buttons .button:active,
+body .ui.basic.button:active {
+    box-shadow: 0px 0px 0px 1px hsl(12.699999999999989, 96.7%, 58.1%) inset !important;
+    color: hsl(12.699999999999989, 96.7%, 58.1%) !important;
+}
+
+.ui.buttons:not(.vertical)>.basic.button:not(:first-child) {
+    margin-left: -1px;
+}
+
+body .ui.labeled.button>.label {
+    border-color: #FC724D
+}
+
+body .ui.primary.button:hover {
+    background-color: hsl(12.699999999999989, 100%, 61.3%)
+}
+
+body .ui.primary.buttons .button,
+body .ui.primary.button {
+    background-color: #FC724D;
+    color: #fff;
+}
+
+body .ui.primary.buttons .button:hover,
+body .ui.primary.button:hover {
+    background-color: hsl(12.699999999999989, 100%, 61.3%);
+    color: #fff;
+}
+
+body .ui.primary.buttons .button:focus,
+body .ui.primary.button:focus {
+    background-color: hsl(12.699999999999989, 100%, 59.3%);
+    color: #fff;
+}
+
+body .ui.primary.buttons .button:active,
+body .ui.primary.button:active {
+    background-color: hsl(12.699999999999989, 96.7%, 58.1%);
+    color: #fff;
+}
+
+body .ui.primary.buttons .active.button,
+body .ui.primary.buttons .active.button:active,
+body .ui.primary.active.button,
+body .ui.primary.button .active.button:active {
+    background-color: hsl(12.699999999999989, 100%, 61.3%);
+    color: #fff;
+}
+
+body .ui.basic.primary.buttons .button,
+body .ui.basic.primary.button {
+    box-shadow: 0px 0px 0px 1px #FC724D inset !important;
+    color: #FC724D !important;
+}
+
+body .ui.basic.primary.buttons .button:hover,
+body .ui.basic.primary.button:hover {
+    background: transparent !important;
+    box-shadow: 0px 0px 0px 1px hsl(12.699999999999989, 100%, 61.3%) inset !important;
+    color: hsl(12.699999999999989, 100%, 61.3%) !important;
+}
+
+body .ui.basic.primary.buttons .button:focus,
+body .ui.basic.primary.button:focus {
+    background: transparent !important;
+    box-shadow: 0px 0px 0px 1px hsl(12.699999999999989, 100%, 59.3%) inset !important;
+    color: hsl(12.699999999999989, 100%, 61.3%) !important;
+}
+
+body .ui.basic.primary.buttons .active.button,
+body .ui.basic.primary.active.button {
+    background: transparent !important;
+    box-shadow: 0px 0px 0px 1px hsl(12.699999999999989, 100%, 61.3%) inset !important;
+    color: hsl(12.699999999999989, 96.7%, 58.1%) !important;
+}
+
+body .ui.basic.primary.buttons .button:active,
+body .ui.basic.primary.button:active {
+    box-shadow: 0px 0px 0px 1px hsl(12.699999999999989, 96.7%, 58.1%) inset !important;
+    color: hsl(12.699999999999989, 96.7%, 58.1%) !important;
+}
+
+.ui.buttons:not(.vertical)>.basic.primary.button:not(:first-child) {
+    margin-left: -1px;
+}
+
+body .ui.labeled.primary.button>.label {
+    border-color: #FC724D
+}
+
+body i.blue.icon {
+    color: #FC724D !important;
+}
+
+body i.blue.icon.inverted {
+    color: #ffffff !important;
+}
+
+body .ui.positive.button:hover {
+    background-color: hsl(12.5, 100%, 73.8%)
+}
+
+body .ui.positive.buttons .button,
+body .ui.positive.button {
+    background-color: #fda68f;
+    color: #fff;
+}
+
+body .ui.positive.buttons .button:hover,
+body .ui.positive.button:hover {
+    background-color: hsl(12.5, 100%, 73.8%);
+    color: #fff;
+}
+
+body .ui.positive.buttons .button:focus,
+body .ui.positive.button:focus {
+    background-color: hsl(12.5, 100%, 71.4%);
+    color: #fff;
+}
+
+body .ui.positive.buttons .button:active,
+body .ui.positive.button:active {
+    background-color: hsl(12.5, 96.5%, 69.9%);
+    color: #fff;
+}
+
+body .ui.positive.buttons .active.button,
+body .ui.positive.buttons .active.button:active,
+body .ui.positive.active.button,
+body .ui.positive.button .active.button:active {
+    background-color: hsl(12.5, 100%, 73.8%);
+    color: #fff;
+}
+
+body .ui.basic.positive.buttons .button,
+body .ui.basic.positive.button {
+    box-shadow: 0px 0px 0px 1px #fda68f inset !important;
+    color: #fda68f !important;
+}
+
+body .ui.basic.positive.buttons .button:hover,
+body .ui.basic.positive.button:hover {
+    background: transparent !important;
+    box-shadow: 0px 0px 0px 1px hsl(12.5, 100%, 73.8%) inset !important;
+    color: hsl(12.5, 100%, 73.8%) !important;
+}
+
+body .ui.basic.positive.buttons .button:focus,
+body .ui.basic.positive.button:focus {
+    background: transparent !important;
+    box-shadow: 0px 0px 0px 1px hsl(12.5, 100%, 71.4%) inset !important;
+    color: hsl(12.5, 100%, 73.8%) !important;
+}
+
+body .ui.basic.positive.buttons .active.button,
+body .ui.basic.positive.active.button {
+    background: transparent !important;
+    box-shadow: 0px 0px 0px 1px hsl(12.5, 100%, 73.8%) inset !important;
+    color: hsl(12.5, 96.5%, 69.9%) !important;
+}
+
+body .ui.basic.positive.buttons .button:active,
+body .ui.basic.positive.button:active {
+    box-shadow: 0px 0px 0px 1px hsl(12.5, 96.5%, 69.9%) inset !important;
+    color: hsl(12.5, 96.5%, 69.9%) !important;
+}
+
+.ui.buttons:not(.vertical)>.basic.positive.button:not(:first-child) {
+    margin-left: -1px;
+}
+
+body .ui.labeled.positive.button>.label {
+    border-color: #fda68f
+}
+
+body a {
+    color: #013543
+}
+
+body a:hover {
+    color: hsl(192.70000000000005, 97.1%, 10.7%)
+}
+
+body .ui.menu .item {
+    color: #013543
+}
+
+.main-sidebar .emoji,
+.vertical.menu .item .emoji {
+    display: none !important;
+}
