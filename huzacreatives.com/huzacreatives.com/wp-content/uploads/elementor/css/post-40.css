@@ -1,0 +1,86 @@
+.elementor-kit-40 {
+    --e-global-color-primary: #013543;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #FFFFFF;
+    --e-global-color-accent: #FC724D;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    color: #013543;
+    font-family: "Poppins", Sans-serif;
+    background-color: #FFFFFF;
+}
+
+.elementor-kit-40 a {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+}
+
+.elementor-kit-40 h1 {
+    color: #013543;
+    font-family: "Poppins", Sans-serif;
+}
+
+.elementor-kit-40 h2 {
+    color: #013543;
+    font-family: "Poppins", Sans-serif;
+}
+
+.elementor-kit-40 h3 {
+    color: #013543;
+    font-family: "Poppins", Sans-serif;
+}
+
+.elementor-kit-40 h4 {
+    color: #013543;
+    font-family: "Poppins", Sans-serif;
+}
+
+.elementor-kit-40 h5 {
+    color: #013543;
+    font-family: "Poppins", Sans-serif;
+}
+
+.elementor-kit-40 h6 {
+    color: #013543;
+    font-family: "Poppins", Sans-serif;
+}
+
+.elementor-kit-40 button,
+.elementor-kit-40 input[type="button"],
+.elementor-kit-40 input[type="submit"],
+.elementor-kit-40 .elementor-button {
+    color: #FFFFFF;
+    background-color: #FC724D;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1025px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 768px;
+    }
+}
