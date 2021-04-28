@@ -1,0 +1,22 @@
+{
+  "short_name": "HUZACreatives",
+  "name": "HUZACreatives",
+  "icons": [
+    {
+      "src": "https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/portals/favicon_2549-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/portals/favicon_2549-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "gcm_sender_id": "254578389979"
+}

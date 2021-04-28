@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <title data-react-helmet="true">Login</title>
+    <meta content="authenticity_token" name="csrf-param" />
+    <meta content="7Ww4ZNoB-zXTB_mpI3ghtJxeOXolmWMP4w0c" name="csrf-token" />
+    <meta data-react-helmet="true" charset="utf-8" />
+    <meta data-react-helmet="true" http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta data-react-helmet="true" name="msapplication-navbutton-color" content="white" />
+    <meta data-react-helmet="true" name="msapplication-tap-highlight" content="no" />
+    <meta data-react-helmet="true" name="msapplication-TileColor" content="#FFFFFF" />
+    <meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" />
+    <meta data-react-helmet="true" name="mobile-web-app-capable" content="yes" />
+    <meta data-react-helmet="true" name="theme-color" content="#FFFFFF" />
+    <meta data-react-helmet="true" name="apple-mobile-web-app-capable" content="yes" />
+    <meta data-react-helmet="true" name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta data-react-helmet="true" name="apple-touch-startup-image" content="/assets/934c0518b47e40b03e6815aa181361ad.png" />
+    <meta data-react-helmet="true" name="apple-touch-fullscreen" content="yes" />
+    <meta data-react-helmet="true" property="og:type" content="website" />
+    <meta data-react-helmet="true" property="og:image:width" content="1024" />
+    <meta data-react-helmet="true" property="og:image:height" content="512" />
+    <meta data-react-helmet="true" property="fb:app_id" content="323262871859508" />
+    <meta data-react-helmet="true" name="twitter:card" content="summary_large_image" />
+    <meta data-react-helmet="true" name="slack-app-id" content="ADM73C1PS" />
+    <meta data-react-helmet="true" name="twitter:image" content="https://static.t-cdn.net/5d124fa93963273fea471a97/portals/banner_66704.png" />
+    <meta data-react-helmet="true" name="msapplication-TileImage" content="https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/portals/favicon_2549-152x152.png" />
+    <meta data-react-helmet="true" name="application-name" content="HUZACreatives" />
+    <meta data-react-helmet="true" name="apple-mobile-web-app-title" content="HUZACreatives" />
+    <meta data-react-helmet="true" name="twitter:title" content="HUZACreatives" />
+    <meta data-react-helmet="true" name="description" content="" />
+    <meta data-react-helmet="true" name="keywords" content="" />
+    <meta data-react-helmet="true" property="og:image" content="https://static.t-cdn.net/5d124fa93963273fea471a97/portals/banner_66704.png" />
+    <meta data-react-helmet="true" property="og:site_name" content="HUZACreatives" />
+    <meta data-react-helmet="true" property="og:title" content="HUZACreatives" />
+    <meta data-react-helmet="true" property="og:description" content="" />
+    <meta data-react-helmet="true" name="twitter:site" content="" />
+    <link data-react-helmet="true" rel="manifest" href="/manifest.json" />
+    <link data-react-helmet="true" rel="icon" href="https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/portals/favicon_2549.png" />
+    <link data-react-helmet="true" rel="icon" sizes="192x192" href="https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/portals/favicon_2549-192x192.png" />
+    <link data-react-helmet="true" rel="apple-touch-icon" sizes="152x152" href="https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/portals/favicon_2549-152x152.png" />
+
+
+    <link rel="stylesheet" href="https://t-assets.net/assets/fb644ac4a411a6fc02749ae1de81f648.css" />
+    <link id="custom-stylesheet" rel="stylesheet" href="/css/theme.css?hash=b20ef731239cf1e5496257c7991a65a6" />
+
+
+</head>
+
+<body class="role-guest">
+    <div id="app">
+        <div data-reactroot="">
+            <div class="main-wrapper" style="padding-top:75px"><a href="#contentStart" tabindex="1" class="sr-only sr-only-focusable"><span>Skip to main content</span></a>
+                <header class="main-navigation">
+                    <nav class="ui borderless text main-menu menu">
+                        <div class="ui container"><a title="HUZACreatives" class="header item header-logo" href="/"><img style="width:auto" src="https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/portals/logo_8462.png" height="32" alt="HUZACreatives" class="ui image"/></a>
+                            <div
+                                class="right menu"><button style="margin:0 10px" accessKey="l" class="ui primary right floated button" tabindex="0"><span>Login</span></button><a role="button" href="/signup" class="item right item"><span>Sign Up</span></a></div>
+            </div>
+            </nav>
+            </header>
+            <main class="ui container">
+                <div id="contentStart" aria-label="Main content"></div>
+                <div class="ui container">
+                    <div role="alert" class="ui hidden message main-message"><i aria-hidden="true" class="close icon"></i></div>
+                </div>
+                <div>
+                    <div class="ui stackable center aligned one column grid">
+                        <div class="row">
+                            <div class="eight wide computer sixteen wide mobile sixteen wide tablet column">
+                                <form class="ui large form login-form authentication-form" method="POST" action="/api/v1/sessions"><input type="hidden" name="_csrf" value="7Ww4ZNoB-zXTB_mpI3ghtJxeOXolmWMP4w0c" /><input type="hidden" name="redirect" value="true" />
+                                    <h1 class="ui header">
+                                        <div><span>Login to HUZACreatives</span></div>
+                                    </h1>
+                                    <div class="ui left aligned segment">
+                                        <div class="field"><label for="loginEmail"><span>Email or Username</span></label>
+                                            <div class="ui large input"><input autofocus="" class="ltr" inputMode="email" id="loginEmail" name="email" /></div>
+                                        </div>
+                                        <div class="field"><label for="loginPassword"><span>Password</span> (<a tabindex="-1" href="/forgot?redirect=/"><span>Forgot password?</span></a>)</label>
+                                            <div class="ui large input"><input type="password" aria-label="Password" id="loginPassword" class="ltr" name="password" /></div>
+                                        </div>
+                                        <div role="alert" class="ui hidden negative message">
+                                            <div role="list" class="ui bulleted list"></div>
+                                        </div><button type="submit" class="ui large fluid primary button"><span>Login</span></button></div>
+                                    <div class="ui message"><span>New user?</span> <a href="/signup?redirect=/"><span>Sign Up Now</span></a><a class="sr-only sr-only-focusable" tabindex="0" href="/forgot?redirect=/"><span>Forgot password?</span></a></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+            </main>
+        </div>
+    </div>
+    </div>
+    <script>
+        window.__INITIAL_STATE__ = {
+            "accessibilityMessage": {
+                "message": ""
+            },
+            "admin": {
+                "users": {
+                    "isLoading": false,
+                    "items": [],
+                    "activeUser": null,
+                    "lastPage": null
+                },
+                "topics": {
+                    "isLoading": false,
+                    "items": [],
+                    "activeTaopic": null,
+                    "lastPage": null
+                },
+                "invitations": {
+                    "isLoading": false,
+                    "items": [],
+                    "activeUser": null,
+                    "lastPage": null
+                },
+                "webhooks": {
+                    "isLoading": false,
+                    "items": [],
+                    "activeWebhook": null,
+                    "lastPage": null
+                },
+                "groups": {
+                    "isLoading": false,
+                    "items": [],
+                    "activeGroup": null,
+                    "lastPage": null
+                },
+                "domain": {}
+            },
+            "answer": {
+                "questions": {
+                    "items": false,
+                    "params": {
+                        "page": 1
+                    },
+                    "hasMore": true,
+                    "isLoading": false
+                },
+                "votes": {
+                    "modalOpen": false,
+                    "items": false,
+                    "itemsCount": 2
+                },
+                "drafts": {
+                    "items": false,
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false
+                },
+                "requests": {
+                    "items": false,
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false
+                },
+                "report": {
+                    "modal": false,
+                    "isPosting": false
+                },
+                "vote": false
+            },
+            "app": {
+                "apps": {
+                    "items": false,
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false
+                },
+                "item": null
+            },
+            "browser": {
+                "_responsiveState": true,
+                "lessThan": {
+                    "extraSmall": false,
+                    "small": false,
+                    "medium": false,
+                    "large": false,
+                    "infinity": false
+                },
+                "greaterThan": {
+                    "extraSmall": true,
+                    "small": true,
+                    "medium": true,
+                    "large": true,
+                    "infinity": false
+                },
+                "is": {
+                    "extraSmall": false,
+                    "small": false,
+                    "medium": false,
+                    "large": false,
+                    "infinity": true
+                },
+                "mediaType": "infinity",
+                "orientation": null,
+                "breakpoints": {
+                    "extraSmall": 480,
+                    "small": 768,
+                    "medium": 992,
+                    "large": 1200,
+                    "infinity": null
+                }
+            },
+            "comment": {
+                "isEditing": false,
+                "report": {
+                    "modal": false,
+                    "isPosting": false
+                }
+            },
+            "csrfToken": "7Ww4ZNoB-zXTB_mpI3ghtJxeOXolmWMP4w0c",
+            "entities": {
+                "answer_requests": {},
+                "answers": {},
+                "apps": {},
+                "comments": {},
+                "events": {},
+                "groups": {},
+                "portals": {},
+                "posts": {},
+                "questions": {},
+                "topics": {},
+                "users": {},
+                "webhooks": {}
+            },
+            "event": {
+                "item": null,
+                "questions": {},
+                "answers": {}
+            },
+            "form": {},
+            "group": {
+                "editorModal": false,
+                "pickerModal": false,
+                "feed": {
+                    "items": false,
+                    "hasMore": true,
+                    "isLoading": false,
+                    "topic": null,
+                    "params": {
+                        "page": 1
+                    },
+                    "moderation": 0
+                },
+                "members": {
+                    "items": false,
+                    "hasMore": true,
+                    "isLoading": false,
+                    "topic": null,
+                    "params": {}
+                },
+                "stats": {},
+                "selectedGroup": false,
+                "isUploadingImage": false
+            },
+            "home": {
+                "answers": {
+                    "items": false,
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false
+                },
+                "contentModal": false,
+                "feed": {
+                    "items": false,
+                    "params": {
+                        "page": 1
+                    },
+                    "hasMore": true,
+                    "isLoading": false,
+                    "topic": null,
+                    "moderation": 0
+                },
+                "groups": {
+                    "items": false,
+                    "params": {
+                        "page": 1
+                    },
+                    "hasMore": true,
+                    "isLoading": false
+                },
+                "notifications": {
+                    "items": false,
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false,
+                    "verb": false
+                },
+                "content": {},
+                "searchGlobal": {
+                    "results": [],
+                    "isLoading": false,
+                    "count": 0,
+                    "value": ""
+                },
+                "searchPage": {
+                    "results": [],
+                    "isLoading": false,
+                    "value": "",
+                    "itemPerPage": 0,
+                    "currentPage": 1
+                },
+                "topics": {
+                    "items": false,
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false
+                },
+                "comments": {
+                    "items": false,
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false
+                },
+                "featured": {},
+                "widget": {
+                    "infiniteScroll": true,
+                    "limit": null
+                }
+            },
+            "isEmbed": false,
+            "isFetching": false,
+            "loadingBar": {
+                "default": 0
+            },
+            "message": {},
+            "modal": {
+                "isOpen": false,
+                "options": {
+                    "title": "",
+                    "content": "",
+                    "props": {},
+                    "actions": [],
+                    "type": "alert",
+                    "callback": false,
+                    "messageId": ""
+                },
+                "upgradeModal": {
+                    "isOpen": false,
+                    "isLoading": false
+                },
+                "shareModal": false
+            },
+            "portal": {
+                "_id": "6076e61cfc3ce3d72e335809",
+                "updatedAt": "2021-04-19T20:02:34.916Z",
+                "createdAt": "2021-04-14T12:54:52.759Z",
+                "name": "HUZACreatives",
+                "domain": "freelancing.huzacreatives.com",
+                "baseUrl": "https://freelancing.huzacreatives.com",
+                "__v": 23,
+                "seed": true,
+                "banner": "https://static.t-cdn.net/5d124fa93963273fea471a97/portals/banner_66704.png",
+                "favicon": "https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/portals/favicon_2549.png",
+                "logo": "https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/portals/logo_8462.png",
+                "trialEndsAt": "2021-04-28T13:05:41.627Z",
+                "trialStartedAt": "2021-04-14T13:05:41.626Z",
+                "longName": "Huza Creatives",
+                "newDomain": "",
+                "sitemap": {
+                    "status": "new",
+                    "urls": []
+                },
+                "security": {
+                    "files": [".pdf", "application/pdf"]
+                },
+                "fields": {
+                    "user": [],
+                    "userString": ""
+                },
+                "apps": [{
+                    "_id": "5dc307748c94f94c305dd051",
+                    "settings": {
+                        "enabled": false,
+                        "baseScore": "10",
+                        "askQuestionWeight": "2",
+                        "createAnswerWeight": "2",
+                        "getUpvoteAnswerWeight": "3",
+                        "receivedLikeWeight": "2",
+                        "replyPostWeight": "2",
+                        "commentWeight": "1",
+                        "createPostWeight": "2",
+                        "_id": "5d7019090494fcc995fb31c0"
+                    },
+                    "slug": "reputation",
+                    "app": {
+                        "_id": "5d7019090494fcc995fb31c0",
+                        "name": "Reputation",
+                        "slug": "reputation",
+                        "type": "native",
+                        "categories": ["Integration"],
+                        "picture": "https://tribe.so/assets/images/admin-apps/reputation.png",
+                        "counts": {
+                            "followers": 0,
+                            "installs": 0
+                        },
+                        "premium": false
+                    },
+                    "enabled": false
+                }, {
+                    "_id": "5e6a879bbd35361a7878a353",
+                    "settings": {
+                        "_id": "5cc944743d9228aa7c44d9d0",
+                        "postToCommunityMainFeed": true,
+                        "chooseGroupWhilePosting": true
+                    },
+                    "slug": "groups",
+                    "app": {
+                        "_id": "5cc944743d9228aa7c44d9d0",
+                        "name": "Groups",
+                        "slug": "groups",
+                        "type": "native",
+                        "categories": ["Functionality"],
+                        "picture": "https://tribe.so/assets/images/appstore/groups.png",
+                        "counts": {
+                            "followers": 0,
+                            "installs": 0
+                        },
+                        "premium": true
+                    },
+                    "enabled": false
+                }, {
+                    "_id": "5ee3f245d8def93e6701f4af",
+                    "settings": {
+                        "enabled": true,
+                        "_id": "5cf4661c3d9228aa7c4562dd"
+                    },
+                    "slug": "moderation",
+                    "app": {
+                        "_id": "5cf4661c3d9228aa7c4562dd",
+                        "name": "Moderation",
+                        "slug": "moderation",
+                        "type": "native",
+                        "categories": ["Functionality"],
+                        "picture": "https://tribe.so/assets/images/admin-apps/moderation.png",
+                        "counts": {
+                            "followers": 0,
+                            "installs": 0
+                        },
+                        "premium": false
+                    },
+                    "enabled": false
+                }, {
+                    "app": {
+                        "_id": "5c6117c63d9228aa7c43d4a3",
+                        "name": "Welcome Email",
+                        "slug": "welcome-email",
+                        "type": "native",
+                        "categories": ["Functionality"],
+                        "picture": "https://tribe.so/assets/images/appstore/welcome-email.png",
+                        "counts": {
+                            "followers": 0,
+                            "installs": 0
+                        },
+                        "premium": false
+                    },
+                    "slug": "welcome-email",
+                    "settings": {
+                        "_id": "5c6117c63d9228aa7c43d4a3"
+                    },
+                    "_id": "60783d3e544f79e48c03c8ae",
+                    "enabled": false
+                }, {
+                    "app": {
+                        "_id": "5cfdcc623d9228aa7c458547",
+                        "name": "Amplitude",
+                        "slug": "amplitude",
+                        "type": "native",
+                        "categories": ["Analytics"],
+                        "picture": "https://tribe.so/assets/images/admin-apps/amplitude.png",
+                        "counts": {
+                            "followers": 0,
+                            "installs": 0
+                        },
+                        "premium": true
+                    },
+                    "slug": "amplitude",
+                    "settings": {
+                        "_id": "5cfdcc623d9228aa7c458547"
+                    },
+                    "_id": "60783d7b936e5c9d3526311c",
+                    "enabled": false
+                }, {
+                    "app": {
+                        "_id": "5f72597648ba8023df6dab4e",
+                        "name": "reCAPTCHA",
+                        "slug": "recaptcha",
+                        "type": "native",
+                        "categories": ["Security"],
+                        "picture": "https://tribe.so/assets/images/admin-apps/recaptcha.png",
+                        "counts": {
+                            "followers": 0,
+                            "installs": 0
+                        },
+                        "premium": false
+                    },
+                    "slug": "recaptcha",
+                    "settings": {
+                        "_id": "5f72597648ba8023df6dab4e"
+                    },
+                    "_id": "60783d923f83ab5d371bcd18",
+                    "enabled": false
+                }, {
+                    "app": {
+                        "_id": "5c40144b3d9228aa7c437e30",
+                        "name": "Signup Wall",
+                        "slug": "signup-wall",
+                        "type": "native",
+                        "categories": ["Functionality"],
+                        "picture": "https://tribe.so/assets/images/appstore/signup-wall.png",
+                        "counts": {
+                            "followers": 0,
+                            "installs": 0
+                        },
+                        "premium": false
+                    },
+                    "slug": "signup-wall",
+                    "settings": {
+                        "_id": "5c40144b3d9228aa7c437e30",
+                        "enabled": true,
+                        "message": "<p>Kickstart your career in collaborative freelancing.&nbsp;</p>"
+                    },
+                    "_id": "60783dd59eaa241a75c8c6e2",
+                    "enabled": false
+                }],
+                "unlockedApps": [],
+                "announcement": {
+                    "action": "Check out our website",
+                    "content": "<p>You are a few steps away from kickstarting your gig career!</p>",
+                    "enabled": true,
+                    "link": "http://huzacreatives.com/",
+                    "picture": "https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/portals/announcement_83105.png",
+                    "title": "Welcome to Huza! Now you work with amazing creatives like you",
+                    "layout": "darkImageBackground"
+                },
+                "notificationsDefaults": {
+                    "email": {
+                        "adminFrequency": "immediately",
+                        "groupFrequency": "immediately",
+                        "followedUsersFrequency": "daily",
+                        "upvotesFrequency": "immediately",
+                        "followedPostsFrequency": "immediately",
+                        "followedTopicsFrequency": "daily",
+                        "mentionsFrequency": "immediately",
+                        "topicFollowMethod": "posts",
+                        "enabled": true
+                    }
+                },
+                "template": {
+                    "fontFamily": "",
+                    "sidebar": "",
+                    "email": {
+                        "notification": "user-notification"
+                    },
+                    "custom": {
+                        "enabled": false
+                    },
+                    "layout": {
+                        "columns": 3
+                    },
+                    "menu": {
+                        "height": 40,
+                        "border": "#ffffff",
+                        "background": "#013543",
+                        "links": [],
+                        "linksString": ""
+                    },
+                    "footer": {
+                        "links": [],
+                        "type": "custom",
+                        "linksString": ""
+                    },
+                    "navbar": {
+                        "height": null,
+                        "color": "#ffffff",
+                        "border": "#013543",
+                        "background": "#013543",
+                        "links": [{
+                            "_id": "60793ca097eb9457e17aae0a",
+                            "url": "http://huzacreatives.com/",
+                            "text": "Go back to Huza Website",
+                            "params": ["start", "responsive"]
+                        }],
+                        "enabled": false,
+                        "linksString": "Go back to Huza Website | http://huzacreatives.com/ | start, responsive"
+                    },
+                    "colors": {
+                        "secondary": "#fda68f",
+                        "primary": "#FC724D",
+                        "menuLink": "#013543",
+                        "link": "#013543",
+                        "default": "#FC724D"
+                    },
+                    "theme": "default"
+                },
+                "messages": {
+                    "signupRules": "<h3><strong>Interested in joining our community? Use this l</strong><a href=\"https://forms.gle/YuL6ajatNt9oAddH8\"><strong>ink</strong></a><strong> to sign up&nbsp;</strong></h3>",
+                    "motto": "Welcome to Huza Freelancing Community! Only community members are allowed to signup"
+                },
+                "pinned": [{
+                    "_id": "5dcdbeeb599a4f462c2c5a5e",
+                    "resourceId": "6076e61dfc3ce3d238335820",
+                    "resourceType": "posts"
+                }],
+                "featured": {
+                    "posts": [],
+                    "events": [],
+                    "answers": [],
+                    "topics": ["6076e61cfc3ce3653a335813", "6076e61cfc3ce32b31335811", "6076e61cfc3ce30807335812"],
+                    "users": [],
+                    "questions": []
+                },
+                "coupons": [],
+                "currency": {
+                    "conversionRate": 100,
+                    "enabled": false
+                },
+                "counts": {
+                    "onlineUsers": 2,
+                    "emails": 0,
+                    "users": 7,
+                    "unapprovedQuestions": 0,
+                    "unapprovedAnswers": 0,
+                    "unanswered": 0,
+                    "topics": 5,
+                    "questions": 1,
+                    "posts": 1,
+                    "comments": 0,
+                    "answers": 1
+                },
+                "info": {
+                    "audience": "Employees",
+                    "objective": "",
+                    "industry": "Consulting / Agency",
+                    "company": "HUZACreatives",
+                    "companySize": "",
+                    "phone": "",
+                    "timeframe": "Very soon",
+                    "tools": []
+                },
+                "sections": [],
+                "feed": {
+                    "previewLength": 40,
+                    "sort": "lastActionAt.desc"
+                },
+                "policies": {
+                    "tagging": {
+                        "addTopicsIsMandatory": true,
+                        "addTopics": true
+                    },
+                    "topicSuggestion": {
+                        "minimum": 0,
+                        "status": "always"
+                    },
+                    "groupSuggestion": {
+                        "minimum": 0,
+                        "status": "disabled"
+                    },
+                    "email": "enabled",
+                    "sessionDuration": 730,
+                    "cookie": "none",
+                    "cookieConsentDuration": 365,
+                    "cookieConsent": "enabled",
+                    "createTopic": "moderator",
+                    "removeUser": "moderator",
+                    "registration": "public",
+                    "content": "shareable",
+                    "access": "private"
+                },
+                "stage": "establishment",
+                "status": "live",
+                "type": "general",
+                "trial": true,
+                "plan": "premium",
+                "topics": [{
+                    "_id": "6076e61cfc3ce32b31335811",
+                    "name": "Social Media",
+                    "picture": "https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/topics/6076e61cfc3ce32b31335811/6076e61cfc3ce32b31335811_12334.png",
+                    "slug": "social-media",
+                    "id": "6076e61cfc3ce32b31335811"
+                }, {
+                    "_id": "6076e61cfc3ce30807335812",
+                    "name": "Videography",
+                    "picture": "https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/topics/6076e61cfc3ce30807335812/6076e61cfc3ce30807335812_16921.png",
+                    "slug": "videography",
+                    "id": "6076e61cfc3ce30807335812"
+                }, {
+                    "_id": "6076e61cfc3ce3653a335813",
+                    "slug": "design",
+                    "name": "Design",
+                    "picture": "https://app-us-east-1.t-cdn.net/6076e61cfc3ce3d72e335809/topics/6076e61cfc3ce3653a335813/6076e61cfc3ce3653a335813_93969.png",
+                    "id": "6076e61cfc3ce3653a335813"
+                }],
+                "contentTypes": [{
+                    "_id": "5d124fa93963273fea471a99",
+                    "permission": "member",
+                    "placeholder": "What's going on today?",
+                    "rules": "",
+                    "verb": "share",
+                    "emoji": "📄",
+                    "description": "Quickly share what's on your mind with everyone",
+                    "plural": "Status Updates",
+                    "singular": "Status Update",
+                    "url": "updates",
+                    "name": "post",
+                    "thread": {
+                        "pagination": {
+                            "limit": 25,
+                            "type": "scroll"
+                        },
+                        "subthread": true,
+                        "sort": "createdAt.asc"
+                    },
+                    "locations": [],
+                    "anonymous": false,
+                    "imagesAttachments": true,
+                    "filesAttachments": true,
+                    "enabled": true,
+                    "kind": "simple"
+                }, {
+                    "_id": "5d124fa93963273fea471a9a",
+                    "permission": "member",
+                    "placeholder": "What's your question?",
+                    "rules": "",
+                    "verb": "Ask",
+                    "emoji": "❓",
+                    "description": "Perfect when you want definitive answers on a topic",
+                    "plural": "Questions",
+                    "singular": "Question",
+                    "url": "questions",
+                    "name": "question",
+                    "thread": {
+                        "pagination": {
+                            "limit": 25,
+                            "type": "scroll"
+                        },
+                        "subthread": true,
+                        "sort": "createdAt.asc"
+                    },
+                    "locations": [],
+                    "anonymous": true,
+                    "imagesAttachments": false,
+                    "filesAttachments": false,
+                    "enabled": true,
+                    "kind": "question"
+                }, {
+                    "_id": "5d124fa93963273fea471a9b",
+                    "permission": "member",
+                    "placeholder": "What are working on?",
+                    "rules": "",
+                    "verb": "start project",
+                    "emoji": "💬",
+                    "description": "the start of something impactful",
+                    "plural": "Gigs",
+                    "singular": "New Gig",
+                    "url": "projects",
+                    "name": "discussion",
+                    "placeholderBody": "start a new project",
+                    "thread": {
+                        "pagination": {
+                            "limit": 25,
+                            "type": "scroll"
+                        },
+                        "subthread": true,
+                        "sort": "createdAt.desc"
+                    },
+                    "locations": [],
+                    "anonymous": false,
+                    "imagesAttachments": false,
+                    "filesAttachments": true,
+                    "enabled": true,
+                    "kind": "article"
+                }, {
+                    "_id": "5d124fa93963273fea471a98",
+                    "permission": "member",
+                    "placeholder": "What do you want to share?",
+                    "rules": "",
+                    "verb": "Publish",
+                    "emoji": "📝",
+                    "description": "",
+                    "plural": "Blogs",
+                    "singular": "Blog",
+                    "url": "blogs",
+                    "name": "article",
+                    "thread": {
+                        "pagination": {
+                            "limit": 25,
+                            "type": "scroll"
+                        },
+                        "subthread": true,
+                        "sort": "createdAt.asc"
+                    },
+                    "locations": [],
+                    "anonymous": false,
+                    "imagesAttachments": false,
+                    "filesAttachments": false,
+                    "enabled": false,
+                    "kind": "article"
+                }],
+                "locale": "en",
+                "aliases": ["huzacreatives.tribe.so"],
+                "whitelabel": true,
+                "synced": {
+                    "searchFailed": false,
+                    "search": true
+                },
+                "corsWhitelist": [],
+                "id": "6076e61cfc3ce3d72e335809",
+                "updateHash": "b20ef731239cf1e5496257c7991a65a6",
+                "rootUrl": ""
+            },
+            "post": {
+                "articleModal": false,
+                "responses": {},
+                "isPosting": false,
+                "isReplying": false,
+                "isEditing": false,
+                "files": {},
+                "images": {},
+                "videos": {},
+                "links": {
+                    "history": {},
+                    "noPreview": false
+                },
+                "recommendations": {},
+                "isContentEditing": false,
+                "report": {
+                    "modal": false,
+                    "isPosting": false
+                },
+                "upvotes": {
+                    "items": false,
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false,
+                    "modal": false
+                }
+            },
+            "question": {
+                "answers": {},
+                "answersList": {
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false
+                },
+                "recommendations": {},
+                "askModal": false,
+                "rewardForm": false,
+                "topicModal": false,
+                "mergeModal": {
+                    "modalOpen": false,
+                    "item": null,
+                    "questions": [],
+                    "isLoading": false,
+                    "error": {}
+                },
+                "item": null,
+                "isAnswering": false,
+                "isEditing": false,
+                "isPosting": false,
+                "pollEnabled": false,
+                "links": {
+                    "history": {},
+                    "noPreview": false
+                },
+                "search": {
+                    "results": [],
+                    "isLoading": false,
+                    "value": ""
+                },
+                "revisions": {
+                    "modalOpen": false,
+                    "items": false
+                },
+                "stats": {},
+                "similars": {
+                    "isLoading": false,
+                    "items": false
+                },
+                "experts": {},
+                "report": {
+                    "modal": false,
+                    "isPosting": false
+                },
+                "polls": [{
+                    "text": "",
+                    "votes": 0,
+                    "_id": ""
+                }, {
+                    "text": "",
+                    "votes": 0,
+                    "_id": ""
+                }],
+                "images": {},
+                "files": {},
+                "videos": {}
+            },
+            "routing": {
+                "locationBeforeTransitions": null
+            },
+            "stat": {
+                "views": {},
+                "portal": {}
+            },
+            "topic": {
+                "content": {},
+                "editorModal": false,
+                "pickerModal": false,
+                "experts": {},
+                "feed": {},
+                "isUploadingImage": false,
+                "item": null,
+                "search": {
+                    "results": [],
+                    "isLoading": false,
+                    "value": ""
+                },
+                "selectedTopics": [],
+                "contentPickerModal": false
+            },
+            "user": {
+                "answers": {},
+                "authenticated": false,
+                "authUser": {},
+                "content": {},
+                "errors": [],
+                "expertise": {},
+                "followers": {},
+                "followings": {},
+                "invitation": {
+                    "fromName": "",
+                    "email": "",
+                    "name": ""
+                },
+                "isUploadingImage": false,
+                "isWaiting": false,
+                "item": {},
+                "linkedAccounts": {},
+                "notifications": {
+                    "items": false,
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false,
+                    "count": 0,
+                    "open": false
+                },
+                "profileModal": false,
+                "creditModal": false,
+                "search": {
+                    "results": [],
+                    "isLoading": false,
+                    "value": ""
+                },
+                "topUsers": {
+                    "items": {},
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false,
+                    "period": "month"
+                },
+                "transactions": {
+                    "items": false,
+                    "page": 1,
+                    "hasMore": true,
+                    "isLoading": false
+                },
+                "groups": {},
+                "messages": {
+                    "isLoading": false,
+                    "count": 0
+                },
+                "billing": {
+                    "isLoading": false,
+                    "invoices": {
+                        "data": [],
+                        "start": null,
+                        "isFirstPage": false,
+                        "hasMore": false,
+                        "isLoading": false,
+                        "hasPagination": false
+                    },
+                    "customer": null,
+                    "subscription": null,
+                    "paymentMethod": null,
+                    "upcomingInvoice": null
+                }
+            },
+            "webhook": {
+                "editorModal": false
+            },
+            "page": {
+                "item": null,
+                "items": null
+            },
+            "session": {
+                "locale": "en"
+            }
+        }
+    </script>
+
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.fa"></script>
+    <script src="https://cdn.ravenjs.com/3.19.1/raven.min.js" crossorigin="anonymous"></script>
+
+
+
+
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(function() {});
+        }
+    </script>
+    <script type="text/javascript" charset="utf-8" src="/locales/en.js"></script>
+    <script charset="utf-8" src="https://t-assets.net/assets/23d9a0e47e12bca81adb.js"></script>
+
+    <!-- tribe-web-75d489f5b8-k9mgc -->
+</body>
+
+</html>
